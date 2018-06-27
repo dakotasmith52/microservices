@@ -21,7 +21,7 @@ router.get('/api/posts/by-user/:userId', function *() {
 });
 
 router.get('/api/posts', function *() {
-  this.body = db.posts[0];
+  this.body = db.posts;
 });
 
 router.get('/api/', function *() {
