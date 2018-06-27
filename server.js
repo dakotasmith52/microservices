@@ -10,13 +10,13 @@ app.use(function *(next){
   console.log('%s %s - %s', this.method, this.url, ms);
 });
 
-router.get('/api/users', function *(next) {
-  this.body = db.users;
+router.get('/api/threads', function *() {
+  this.body = db.threads;
 });
 
-router.get('/api/users/:userId', function *(next) {
-  const id = parseInt(this.params.userId);
-  this.body = db.users.find((user) => user.id == id);
+router.get('/api/threads/:threadId', function *() {
+  const id = parseInt(this.params.threadId);
+  this.body = db.threads.find((thread) => thread.id == id);
 });
 
 router.get('/api/', function *() {
