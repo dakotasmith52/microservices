@@ -22,7 +22,7 @@ router.get('/api/posts/by-user/:userId', function *() {
 
 router.get('/api/posts', function *() {
   this.body = db.posts[0];
-})
+});
 
 router.get('/api/', function *() {
   this.body = "API ready to receive requests";
