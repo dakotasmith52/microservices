@@ -41,6 +41,12 @@
       "username": "James",
       "name": "James the Pollo Loco",
       "bio": "Born on the smoldering back of the Ancient Dragon 'Malthael', James 'Draconis' Pollo Loco will grow to become the king of the First World."
+    },
+    {
+      "id": 8,
+      "username": "Cassidy",
+      "name": "Cassidy 'The Hammer' Wrothchild",
+      "bio": "From a reletavely small town outside the larger cities of the Metropolis, 'The Hammer' got her nickname by lifting the decrepit Daedric tool from it's supposed resting place before the war of the Ancients."
     }
   ]
 }
