@@ -35,6 +35,12 @@
       "username": "Freddy",
       "name": "Freddy the fisherman",
       "bio": "Freddy, once a hardened criminal working from the outskirts of the Martian jungle, is now a fisherman who enjoys capturing fish in his net and eating them alive."
+    },
+    {
+      "id": 7,
+      "username": "James",
+      "name": "James the Pollo Loco",
+      "bio": "Born on the smoldering back of the Ancient Dragon 'Malthael', James 'Jamchez' Pollo Loco will grow to become the king of the First World."
     }
   ]
 }
